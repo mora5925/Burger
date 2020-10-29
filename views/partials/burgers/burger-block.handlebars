@@ -1,0 +1,10 @@
+<p class="text-center">
+	<span class="list">{{burger_name}}</span>
+
+	{{#if devoured}}
+	<button class="devour-it float-right" data-id="{{id}}" data-devoured="{{devoured}}">Devour It!</button>
+	{{/if}}
+
+
+	<button class="delete-burger float-right" data-id="{{this.id}}">DELETE!</button>
+<p>
