@@ -1,9 +1,9 @@
 <main class="container">
-  <h1 id="title">your burgers. your way.</h1>
+  <h1 id="title">Burger Time</h1>
 
   <div class="row text-center">
     <div class="col">
-      <h2 class="devoured">Add a Burger</h2>
+      <h2 class="devoured">Creat Your Burger</h2>
       <form class="create-form">
 
         <div class="form-group list">
@@ -11,14 +11,14 @@
           <input type="text" id="bu" name="name">
         </div>
 
-        <button type="submit">Add Burger</button>
+        <button type="submit">Feed Me</button>
       </form>
     </div>
   </div>
 
   <div class="row justify-content-md-center mt-5">
     <div class="col-md-5">
-      <h2 class="devoured text-center">Your MasterPiece</h2>
+      <h2 class="devoured text-center">Your Burger</h2>
       <ul>
         {{#each burgers}}
         {{#unless devoured}}
@@ -28,7 +28,7 @@
       </ul>
     </div>
     <div class="col-md-4">
-      <h2 class="devoured text-center">Devoured burgers!</h2>
+      <h2 class="devoured text-center"></h2>
       <ul>
         {{#each burgers}}
         {{#if devoured}}

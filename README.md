@@ -5,3 +5,5 @@
 
 When the user submits a burger's name, the application will display the burger on the left side of the page while it waits to be devoured.
  Burger stores every burger in Dbeaver database
+##Application screenshot
+<img src="./public/assets/pictures\classic burger.jpg"/>
