@@ -20,17 +20,12 @@ $(function () {
       }
     );
   });
-
   $(".create-form").on("submit", function (event) {
-    
     event.preventDefault();
-
     var newBurger = {
       burger_name: $("#bu").val().trim(),
       devoured: false
     };
-
-   
     $.ajax("/api/burgers", {
       type: "POST",
       data: newBurger
@@ -45,14 +40,11 @@ $(function () {
 
   $(".delete-burger").on("click", function (event) {
     var id = $(this).data("id");
-
-   
     $.ajax("/api/burgers/" + id, {
       type: "DELETE"
     }).then(
       function () {
-        console.log("deleted burger", id);
-        
+        console.log("deleted burger", id); 
         location.reload();
       }
     );

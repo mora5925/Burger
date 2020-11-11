@@ -3,13 +3,13 @@ body {
   background-size: auto;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  color:black;
+  color:greenyellow;
 }
 
 main {
   width: 100%;
   height: 100%;
-  margin-bottom: 0;
+  float: left;
 }
 
 html {
@@ -19,10 +19,7 @@ html {
 button {
   border-radius: 7px;
   transition: 0.5s;
-}
 
-button:hover {
-  box-shadow: 0 5px 10px black;
 }
 
 .label {
@@ -33,6 +30,7 @@ button:hover {
   padding: 5px;
   margin: 5px;
   background: aqua;
+  float: left;
 }
 
 .form-group {
@@ -41,8 +39,8 @@ button:hover {
 
 .devoured {
   font-size: 30px;
-  font-family: 'Shadows Into Light', cursive;
-  color: #daa700;
+  font-family: 'Shadows Into Light';
+  color:greenyellow;
   font-weight: bold;
   text-shadow: 2px 2px 3px black;
 }
@@ -58,7 +56,7 @@ button:hover {
 }
 
 #title {
-  text-align: center;
+  text-align: left;
   font-family: 'Bebas Neue', cursive;
   font-size: 80px;
   margin-top: 50px;
